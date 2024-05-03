@@ -63,14 +63,12 @@ In your case, you would swap out the public ip address portion with the actuall 
 
 After successsfully connecting, type in the following commands to install the framework.</br>
 
-<Code>
-sudo apt update
+<Code>sudo apt update
 sudo apt upgrade -y
 sudo apt install git
 sudo git clone https://github.com/telekom-security/tpotce
 cd tpotce/iso/installer/
-sudo ./install.sh --type=user
-</code></br>
+sudo ./install.sh --type=user</code></br>
 
 <center>
   <img width='1127' alt='Screenshot 2024-03-18 160451' src='https://github.com/horeacio/Azure-Honeypot/assets/100793672/da4d6d7f-bc1e-49e4-8085-6782abae0eca'>
